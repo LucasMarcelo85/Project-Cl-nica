@@ -36,6 +36,20 @@ Agora, você pode começar a explorar o projeto!
    Lucas Marcelo N Souza  <div > <a href="https://dev-marcelo.vercel.app/" target="_blank"><img alt="" src="https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=yellow&style=for-the-badge" style="vertical-align:center" width="120" /></a> <br> [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white" align="center" width="120"/>](https://github.com/LucasMarcelo85) <br> <a href="https://www.linkedin.com/in/marcelo-souza-882aab316" target="_blank" align="center" width="120"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center" width="120"></a> </div> 
 
 
+   
+<div > 
+    <img src="https://github.com/ronnysenna.png" height="90px">
+    <br> Ronny Senna<br>
+    <a href="" target="_blank"><img alt="Portifólio" src="https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=yellow&style=for-the-badge" style="vertical-align:center" width="120" /></a>
+   <br>
+   <a href=""target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white" align="center" width="120"/> 
+   <br>
+   <a href="https://www.linkedin.com/in/ronielle-sena-510559199" target="_blank" align="center" width="120"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center" width="120"></a> 
+      <br>
+ </div> 
+
+
+
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Memo.webp" alt="Memo" width="25" height="25" /> Licença
 
