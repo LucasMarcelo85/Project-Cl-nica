@@ -48,6 +48,18 @@ Agora, você pode começar a explorar o projeto!
       <br>
  </div> 
 
+ <div > 
+    <img src="https://github.com/italocampo.png" height="90px">
+    <br> Italo Campos<br>
+    <a href="" target="_blank"><img alt="Portifólio" src="https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=yellow&style=for-the-badge" style="vertical-align:center" width="120" /></a>
+   <br>
+   <a href="https://github.com/italocampo" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white" align="center" width="120"/> 
+   <br>
+   <a href="https://www.linkedin.com/in/italo-campos-70850a306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" align="center" width="120"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center" width="120"></a> 
+      <br>
+ </div> 
+
+
 
 
 
