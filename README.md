@@ -42,7 +42,7 @@ Agora, você pode começar a explorar o projeto!
     <br> Ronny Senna<br>
     <a href="" target="_blank"><img alt="Portifólio" src="https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=yellow&style=for-the-badge" style="vertical-align:center" width="120" /></a>
    <br>
-   <a href=""target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white" align="center" width="120"/> 
+   <a href="https://github.com/ronnysenna"target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white" align="center" width="120"/> 
    <br>
    <a href="https://www.linkedin.com/in/ronielle-sena-510559199" target="_blank" align="center" width="120"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center" width="120"></a> 
       <br>
