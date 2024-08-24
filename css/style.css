@@ -1,0 +1,46 @@
+* {
+    /* PARA DAR UMA RESETADA NO CÓDIGO*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #fff
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ESTILO DO HEADER */
+
+header {
+    width: 100%;
+    padding: 40px 0;
+}
+
+
+/* DISPLAY-FLEX PARA OS ÍTENS FICAREM UM AO LADO DO OUTRO */
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    /*CADA ÍTEM FICARÁ NO SEU RESPECTIVO LUGAR*/
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 100px;
+}
+
+header .menu-desktop nav ul {
+    list-style-type: none;
+}
+
+.menu-desktop nav ul li a {
+    display: inline-block;
+    margin: 0 40px;
+
+}
