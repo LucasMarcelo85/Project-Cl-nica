@@ -66,7 +66,7 @@ Agora, você pode começar a explorar o projeto!
    <br>
    <a href="https://github.com/brunoricardo1523" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white" align="center" width="120"/> 
    <br>
-   <a href="https://www.linkedin.com/in/italo-campos-70850a306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" align="center" width="120"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center" width="120"></a> 
+   <a href="https://www.linkedin.com/in/bruno-ricardo-663bbb302/" target="_blank" align="center" width="120"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center" width="120"></a> 
       <br>
  </div> 
 
