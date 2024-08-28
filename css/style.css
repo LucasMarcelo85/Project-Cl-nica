@@ -1,0 +1,163 @@
+* {
+    /* PARA DAR UMA RESETADA NO CÓDIGO*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #e3e3e3;
+
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.btn-contato button,
+.odonto-site button {
+
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+/* ESTILO DO HEADER */
+
+header {
+    width: 100%;
+    padding: 40px 0;
+    position: fixed;
+    /*COMANDO PARA DEIXAR O MENU TRANSPARENTE*/
+    top: 0;
+    /*COMANDO PARA DEIXAR O MENU TRANSPARENTE*/
+    left: 0;
+    /*COMANDO PARA DEIXAR O MENU TRANSPARENTE*/
+}
+
+
+/* DISPLAY-FLEX PARA OS ÍTENS FICAREM UM AO LADO DO OUTRO */
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    /*CADA ÍTEM FICARÁ NO SEU RESPECTIVO LUGAR*/
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 100px;
+}
+
+header .menu-desktop nav ul {
+    list-style-type: none;
+}
+
+.menu-desktop nav ul li a {
+    display: inline-block;
+    margin: 0 40px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .4s;
+
+}
+
+.menu-desktop nav a:hover {
+    /* O "HOVER" MELHORA A VISUALIZAÇÃO DOS ÍTENS DO MENU, APLICANDO TRANSIÇÃO E ZOOM */
+    transform: scale(1.05);
+
+
+}
+
+
+.btn-contato button {
+    width: 140px;
+    height: 50px;
+}
+
+
+
+header .btn-contato button:hover,
+.odonto-site button:hover {
+    color: #000;
+    background-color: #fff
+}
+
+/* ESTILO DA ODONTO-SITE */
+
+section.odonto-site {
+    height: 100vh;
+    background-image: url(../img/fundo.jpg);
+    /* O "../" PROCURA A PASTA DE IMAGENS*/
+    background-repeat: no-repeat;
+    /*REMOVER REPETIÇÃO DE IMAGEM NA MESMA FOTO*/
+    background-size: cover;
+    /*PREENCHER O RESTANTE DA IMAGEM*/
+    background-position: center;
+    color: #fff;
+}
+
+.odonto-site .interface {
+    align-items: center;
+    display: flex;
+    height: 100%;
+
+}
+
+.odonto-site .txt-odonto h1 {
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.odonto-site .txt-odonto h1 span {
+    display: block;
+    font-weight: 800;
+
+}
+
+.odonto-site .txt-odonto p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 15px 0;
+}
+
+.odonto-site button {
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+}
+
+/* ESTILO DOS MÉTODOS */
+
+section.metodo{
+    padding: 80px 0;
+}
+
+.metodo .blocos{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 10%;
+margin-bottom: 60px;
+}
+
+.metodo .blocos .img-blocos img{
+    max-width: 480px;
+}
+
+.metodo .blocos .txt-blocos h3{
+font-size: 3em;
+line-height: 50px;
+
+}
+
+.blocos .txt-blocos h3{
+    font-weight: 200px;
+}
