@@ -17,8 +17,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!--FIM BOOTSTRAP ICONS-->
 
-    <!-- SCRIPTS DO JS -->
-    <script src="js/menu.js" defer></script>
+
 
 
     <title>Clínica Dra. Graça</title> <!--TÍTULO DO SITE,VAI APARECER NO TOPO DA ABA.-->
@@ -29,7 +28,7 @@
 
         <div class="interface"> <!--INTERFACE-->
             <section class="logo">
-                <img class="logo-branca" src="img/logo.png" alt="logotipo"> <!--LOGOTIPO-->
+                <img class="logo-branca" src="img/logo.png" width="80px" alt="logotipo"> <!--LOGOTIPO-->
             </section>
 
             <section class="menu-desktop">
@@ -38,8 +37,8 @@
                         <li> <!--LISTA DE ÍTENS DA LISTA-->
                             <a href="#">Início</a> <!--O "A HREF" SERVE PARA PÔR LINKS PARA UM DESTINO-->
                             <a href="">Sobre</a> <!--O "A HREF" SERVE PARA PÔR LINKS PARA UM DESTINO-->
-                            <a href="#">Procedimentos</a> <!--O "A HREF" SERVE PARA PÔR LINKS PARA UM DESTINO-->
-                            <a href="#">Agendamentos</a> <!--O "A HREF" SERVE PARA PÔR LINKS PARA UM DESTINO-->
+                            <a href="#Procedimentos">Procedimentos</a> <!--O "A HREF" SERVE PARA PÔR LINKS PARA UM DESTINO-->
+                            <a href="#contato">Agendamentos</a> <!--O "A HREF" SERVE PARA PÔR LINKS PARA UM DESTINO-->
                         </li>
                     </ul>
                 </nav>
@@ -67,68 +66,70 @@
         </div>
     </section>
 
-    <section class="metodo">
-        <div class="interface">
-            <article class="blocos">
-                <div class="txt-blocos">
-                    <h3>Desinfecção <br> oral</h3>
-                </div>
-
-                <div class="img-blocos">
-                    <img src="img/desinfecção-oral.jpg" alt="">
-                </div>
-
-            </article>
-
-            <article class="blocos">
-                <div class="img-blocos">
-                    <img src="img/lente.jpg" alt="">
-                </div>
-                <div class="txt-blocos">
-                    <h3>Lentes <br> de contato</h3>
-                </div>
-
-
-
-            </article>
-
-
-            <article class="blocos">
-                <div class="txt-blocos">
-                    <h3>Implante <br> dentário</h3>
-                </div>
-
-                <div class="img-blocos">
-                    <img src="img/implante.jpg" alt="">
-                </div>
-
-            </article>
-
-
-            <article class="blocos">
-                <div class="img-blocos">
-                    <img src="img/aparelho.jpg" alt="">
-                </div>
-                <div class="txt-blocos">
-                    <h3>Aparelho <br> ortodôntico</h3>
-                </div>
-
-
-
-            </article>
-
-
-            <article class="blocos">
-                <div class="txt-blocos">
-                    <h3>Cirurgia <br> oral menor</h3>
-                </div>
-
-                <div class="img-blocos">
-                    <img src="img/cirurgia.jpg" alt="">
-                </div>
-
-            </article>
-
+    <div id="Procedimentos">
+        <section class="metodo">
+            <div class="interface">
+                <article class="blocos">
+                    <div class="txt-blocos">
+                        <h3>Desinfecção <br> oral</h3>
+                    </div>
+    
+                    <div class="img-blocos">
+                        <img src="img/desinfecção-oral.jpg" alt="">
+                    </div>
+    
+                </article>
+    
+                <article class="blocos">
+                    <div class="img-blocos">
+                        <img src="img/lente.jpg" alt="">
+                    </div>
+                    <div class="txt-blocos">
+                        <h3>Lentes <br> de contato</h3>
+                    </div>
+    
+    
+    
+                </article>
+    
+    
+                <article class="blocos">
+                    <div class="txt-blocos">
+                        <h3>Implante <br> dentário</h3>
+                    </div>
+    
+                    <div class="img-blocos">
+                        <img src="img/implante.jpg" alt="">
+                    </div>
+    
+                </article>
+    
+    
+                <article class="blocos">
+                    <div class="img-blocos">
+                        <img src="img/aparelho.jpg" alt="">
+                    </div>
+                    <div class="txt-blocos">
+                        <h3>Aparelho <br> ortodôntico</h3>
+                    </div>
+    
+    
+    
+                </article>
+    
+    
+                <article class="blocos">
+                    <div class="txt-blocos">
+                        <h3>Cirurgia <br> oral menor</h3>
+                    </div>
+    
+                    <div class="img-blocos">
+                        <img src="img/cirurgia.jpg" alt="">
+                    </div>
+    
+                </article>
+    
+    </div>
 
 
         </div>
@@ -137,48 +138,55 @@
 
     <section class="fale-conosco">
 
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.326997833074!2d-38.5359992260604!3d-3.7387445432227016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7490416f54347%3A0x900a70c27a322f8a!2sR.%20Sen.%20Pompeu%2C%202314%20-%20Benfica%2C%20Fortaleza%20-%20CE%2C%2060025-002!5e0!3m2!1spt-BR!2sbr!4v1724949495246!5m2!1spt-BR!2sbr"
-            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.326997833074!2d-38.5359992260604!3d-3.7387445432227016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7490416f54347%3A0x900a70c27a322f8a!2sR.%20Sen.%20Pompeu%2C%202314%20-%20Benfica%2C%20Fortaleza%20-%20CE%2C%2060025-002!5e0!3m2!1spt-BR!2sbr!4v1724949495246!5m2!1spt-BR!2sbr"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        <div class="interface"> <!--A CLASSE INTERFACE É RESPONSÁVEL POR CENTRALIZAR TODOS OS ELEMENTOS DE UM SITE-->
 
-            <article class="txt-fale-conosco">
-                <h3>Fale agora com a
+            <div class="interface">
+                <!--A CLASSE INTERFACE É RESPONSÁVEL POR CENTRALIZAR TODOS OS ELEMENTOS DE UM SITE-->
 
-                    <span>nossa equipe</span>
-                </h3>
+                <div id="contato">
+                    <article class="txt-fale-conosco">
+                        <h3>Fale agora com a
+    
+                            <span>nossa equipe</span>
+                        </h3>
+    
+                        <p>Agende já sua consulta</p>
+    
+                    </article>
+    
+                    <article class="icons-fale-conosco">
+    
+                        <a href="#">
+    
+                            <button><i class="bi bi-whatsapp"></i>
+                                <p>Chamar no WhatsApp</p>
+                            </button>
+    
+                        </a>
+                        <a href="#">
+    
+                            <button><i class="bi bi-envelope"></i>
+                                <p>Mandar E-mail</p>
+                            </button>
+    
+                        </a>
+                        <a href="#">
+    
+                            <button><i class="bi bi-telephone-fill"></i>
+                                <p>Ligar</p>
+                            </button>
+    
+                        </a>
+    
+                    </article>
+                </div>
 
-                <p>Agende já sua consulta</p>
-
-            </article>
-
-            <article class="icons-fale-conosco">
-
-                <a href="#">
-
-                    <button><i class="bi bi-whatsapp"></i>
-                        <p>Chamar no WhatsApp</p>
-                    </button>
-
-                </a>
-                <a href="#">
-
-                    <button><i class="bi bi-envelope"></i>
-                        <p>Mandar E-mail</p>
-                    </button>
-
-                </a>
-                <a href="#">
-
-                    <button><i class="bi bi-telephone-fill"></i>
-                        <p>Ligar</p>
-                    </button>
-
-                </a>
-
-            </article>
+            </div>
 
         </div>
 
@@ -199,5 +207,6 @@
     </footer>
 
 </body>
+<script src="./script.js"></script>
 
 </html>

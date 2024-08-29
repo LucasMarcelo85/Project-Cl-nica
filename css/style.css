@@ -96,7 +96,7 @@ header .btn-contato button:hover,
 /* ESTILO DA ODONTO-SITE */
 
 section.odonto-site {
-    height: 100vh;
+    height: 150vh;
     background-image: url(../img/fundo.jpg);
     /* O "../" PROCURA A PASTA DE IMAGENS*/
     background-repeat: no-repeat;
@@ -265,4 +265,55 @@ footer .bottom-footer p {
     color: #fff;
     margin: 30px 0;
 
+}
+
+/* .menu-desktop nav{
+    background-color: #030303;
+} */
+header{
+    padding-bottom: 0;
+    height: 20%;
+}
+
+ .icons-fale-conosco{
+    margin-left: 40%;
+    height: 40vh;
+    padding-top: 0;
+}
+
+
+iframe{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 0;
+}
+.maps{
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.maps iframe strong{
+    padding: 2%;
+    flex-direction: column;
+}
+
+.maps .interface{
+    padding: 0 4% 0 2%;
+    margin: 0%;
+    left: 10%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Cor padrão do texto do menu */
+    transition: color 0.3s;
+}
+
+header.scrolled nav ul li a {
+    transition: color 0.3s;
+    display: none;
+}
+html {
+    scroll-behavior: smooth;
 }
