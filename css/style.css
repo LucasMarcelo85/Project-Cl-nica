@@ -57,14 +57,6 @@ header .logo img {
 }
 
 
-header.rolar{
-    background-color: #000000;
-    padding: 20px 0;
-}
-
-header.rolar .menu-desktop nav ul li a{
-    color: #000;
-}
 
 header .menu-desktop nav ul {
     list-style-type: none;
@@ -236,6 +228,8 @@ section.fale-conosco {
 }
 
 /*ESTILO DO RODAPÉ */
+
+
 
 footer {
     background-color: #000;
