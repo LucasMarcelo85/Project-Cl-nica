@@ -16,6 +16,7 @@ body {
     margin: 0 auto;
 }
 
+
 .btn-contato button,
 .odonto-site button {
 
@@ -51,7 +52,18 @@ header .interface {
 }
 
 header .logo img {
-    max-width: 100px;
+    max-width: 120px;
+    border-radius: 15px;
+}
+
+
+header.rolar{
+    background-color: #000000;
+    padding: 20px 0;
+}
+
+header.rolar .menu-desktop nav ul li a{
+    color: #000;
 }
 
 header .menu-desktop nav ul {
@@ -150,6 +162,7 @@ section.metodo {
 
 .metodo .blocos .img-blocos img {
     max-width: 480px;
+    border-radius: 50px;
 }
 
 .metodo .blocos .txt-blocos h3 {
@@ -165,56 +178,97 @@ section.metodo {
 
 /* ESTILO DOS BOTÕES DE CONTATO */
 
-section .fale-conosco{
+section.fale-conosco {
     background-color: #fff;
     padding: 80px 0;
 }
 
-.txt-fale-conosco,.icons-fale-conosco{ /*ALINHA OS BLOCOS,PODIA SER USADO TAMBÉM O DISPLAY FLEX EM VEZ DESSE AÍ*/
-   display: inline-block;
-   margin-right: -4px;
-   vertical-align: middle;
+.txt-fale-conosco,
+.icons-fale-conosco {
+    /*ALINHA OS BLOCOS,PODIA SER USADO TAMBÉM O DISPLAY FLEX EM VEZ DESSE AÍ*/
+    display: inline-block;
+    margin-right: - 4px;
+    vertical-align: middle;
 }
 
-.fale-conosco .txt-fale-conosco h3{
+.fale-conosco .txt-fale-conosco h3 {
     font-size: 2.5em;
     line-height: 50px;
     font-weight: 300;
-    margin top: 20px;
+    margin-bottom: 20px;
 }
 
-.fale-conosco .txt-fale-conosco h3 span{
+.fale-conosco .txt-fale-conosco h3 span {
     display: block;
     font-weight: 700;
 }
 
-.fale-conosco .icons-fale-conosco a{
+.fale-conosco .icons-fale-conosco a {
     text-decoration: none;
 }
 
-.fale-conosco .icons-fale-conosco button{
+.fale-conosco .icons-fale-conosco button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
+    width: 70%;
     height: 60px;
     margin: 0 auto 20px auto;
     padding: 0 60px;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     cursor: pointer;
     transition: .5s;
-    
+
 }
 
-.fale-conosco .icons-fale-conosco button i{
+.fale-conosco .icons-fale-conosco button i {
     font-size: 20px;
 }
 
-.fale-conosco .icons-fale-conosco button:hover{
+.fale-conosco .icons-fale-conosco button:hover {
     background-color: #000;
 }
 
-.fale-conosco .icons-fale-conosco button:hover i,.fale-conosco .icons-fale-conosco button:hover p{
+.fale-conosco .icons-fale-conosco button:hover i,
+.fale-conosco .icons-fale-conosco button:hover p {
     color: #fff;
+}
+
+/*ESTILO DO RODAPÉ */
+
+footer {
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .top-footer button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: .5s;
+}
+
+footer .top-footer button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+footer .bottom-footer {
+    border-top: 2px solid #fff;
+    margin: 25px;
+}
+
+footer .bottom-footer p {
+    color: #fff;
+    margin: 30px 0;
+
 }
