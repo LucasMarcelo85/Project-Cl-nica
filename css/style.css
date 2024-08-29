@@ -317,3 +317,7 @@ header.scrolled nav ul li a {
 html {
     scroll-behavior: smooth;
 }
+
+.btn-contato button{
+    background-color: rgba(0, 255, 255, 0.651);
+}
