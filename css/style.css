@@ -40,7 +40,7 @@ header {
     /*COMANDO PARA DEIXAR O MENU TRANSPARENTE*/
     left: 0;
     /*COMANDO PARA DEIXAR O MENU TRANSPARENTE*/
-    
+
 }
 
 
@@ -271,35 +271,37 @@ footer .bottom-footer p {
 /* .menu-desktop nav{
     background-color: #030303;
 } */
-header{
+header {
     padding-bottom: 0;
     height: 20%;
 }
 
- .icons-fale-conosco{
+.icons-fale-conosco {
     margin-left: 40%;
     height: 40vh;
     padding-top: 0;
 }
 
 
-iframe{
+iframe {
     display: flex;
     flex-direction: row;
     width: 50%;
     padding: 0;
 }
-.maps{
+
+.maps {
     padding: 2%;
     display: flex;
     flex-direction: row;
 }
-.maps iframe strong{
+
+.maps iframe strong {
     padding: 2%;
     flex-direction: column;
 }
 
-.maps .interface{
+.maps .interface {
     padding: 0 4% 0 2%;
     margin: 0%;
     left: 10%;
@@ -307,7 +309,8 @@ iframe{
 
 nav ul li a {
     text-decoration: none;
-    color: #fff; /* Cor padrão do texto do menu */
+    color: #fff;
+    /* Cor padrão do texto do menu */
     transition: color 0.3s;
 }
 
@@ -315,10 +318,44 @@ header.scrolled nav ul li a {
     transition: color 0.3s;
     display: none;
 }
+
 html {
     scroll-behavior: smooth;
 }
 
-.btn-contato button{
+.btn-contato button {
     background-color: rgba(0, 255, 255, 0.651);
+}
+
+
+
+
+
+header .header-sobre { /* AQUI ESTILIZA O SOBRE*/
+    background-color: #e3e3e3
+}
+
+section.sobre-dra h2 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    color: #000;
+
+
+}
+
+
+section.sobre-dra p {
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+section.sobre-dra {
+    margin: 50px;
+}
+
+.interface-img img {
+    border-radius: 15%;
+    width: 800px;
+    margin: 30px;
 }
