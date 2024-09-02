@@ -18,6 +18,7 @@
     <!--FIM BOOTSTRAP ICONS-->
 
     <link rel="shortcut icon" href="./img/dentex.png" type="image/x-icon">
+    
 
 
 
@@ -27,34 +28,48 @@
 
 <body>
     <header id="header"> <!--CABEÇALHO-->
-
         <div class="interface"> <!--INTERFACE-->
             <!-- <section class="logo">
                 <img class="logo-branca" src="#" width="80px" alt="logotipo"> LOGOTIPO-->
-            <!-- </section> --> 
-
+            <!-- </section> -->
+    
             <section class="menu-desktop">
                 <nav> <!--MENU DE NAVEGAÇÃO-->
                     <ul> <!--LISTA DE LINKS NÃO ORDENADAS-->
-                        <li> <!--LISTA DE ÍTENS DA LISTA-->
-                            <a href="#">Início</a> <!--O "A HREF" SERVE PARA PÔR LINKS PARA UM DESTINO-->
-                            <a href="/sobre.html" target="_blank">Sobre</a>
-                            <!--O "A HREF" SERVE PARA PÔR LINKS PARA UM DESTINO-->
-                            <a href="#">Procedimentos</a> <!--O "A HREF" SERVE PARA PÔR LINKS PARA UM DESTINO-->
-                            <a href="#">Agendamentos</a> <!--O "A HREF" SERVE PARA PÔR LINKS PARA UM DESTINO-->
-                        </li>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="/sobre.html" target="_blank">Sobre</a></li>
+                        <li><a href="#">Procedimentos</a></li>
+                        <li><a href="#">Agendamentos</a></li>
                     </ul>
                 </nav>
             </section>
-
+    
             <section class="btn-contato"> <!--BOTÃO DO CONTATO NO TOPO DA PÁGINA-->
                 <a href="#contato">
                     <button>Contato</button>
                 </a>
             </section>
-
+    
+            <!-- Botão do menu móvel -->
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+    
+            <!-- Menu móvel -->
+            <section class="menu-mobile">
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="/sobre.html" target="_blank">Sobre</a></li>
+                        <li><a href="#">Procedimentos</a></li>
+                        <li><a href="#">Agendamentos</a></li>
+                    </ul>
+                </nav>
+            </section>
+    
         </div>
-
     </header>
 
     <section class="odonto-site">
@@ -211,5 +226,6 @@
 
 </body>
 <script src="./script.js"></script>
+<script src="./css/stye.js"></script>
 
 </html>

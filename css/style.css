@@ -388,3 +388,116 @@ section.sobre-dra {
    
 
 }
+/* ----------------------------------------------------------- */
+
+/* styles.css */
+
+/* Estilos básicos */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+}
+
+.menu-desktop {
+    display: block;
+}
+
+.menu-desktop nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-desktop nav ul li {
+    margin: 0 1em;
+}
+
+.menu-desktop nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo do botão de contato */
+.btn-contato button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Menu móvel */
+.menu-mobile {
+    display: none;
+}
+
+.menu-mobile nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.menu-mobile nav ul li {
+    border-bottom: 1px solid #444;
+}
+
+.menu-mobile nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 1em;
+    text-decoration: none;
+}
+
+/* Ícone do menu */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 1em;
+    z-index: 1000;
+}
+
+.menu-toggle .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px auto;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .menu-desktop {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu-mobile.active {
+        display: block;
+    }
+    .btn-contato{
+        display: none;
+    }
+     #header{
+        background-color: rgba(255, 255, 255, 0);
+        color: #000;
+}  
+}
+
+
