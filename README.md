@@ -1,6 +1,6 @@
 # Projeto Clínica Dentária
 
-Este projeto é uma aplicação web desenvolvida para uma clínica de dentista. O objetivo é facilitar a gestão de pacientes, consultas e procedimentos realizados na clínica, oferecendo uma interface intuitiva tanto para os funcionários quanto para os dentistas. Com esse sistema, é possível gerenciar o cadastro de pacientes, agendar consultas, visualizar o histórico de atendimentos e acessar relatórios de forma prática e rápida.
+Este projeto é uma aplicação web desenvolvida para uma clínica de otondológica. O objetivo é facilitar a gestão de pacientes, consultas e procedimentos realizados na clínica, oferecendo uma interface intuitiva tanto para os funcionários quanto para os dentistas. Com esse sistema, é possível gerenciar o cadastro de pacientes, agendar consultas, visualizar o histórico de atendimentos e acessar relatórios de forma prática e rápida.
 
 ##  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />Como Clonar o Repositório
 
