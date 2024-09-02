@@ -1,13 +1,13 @@
 * {
     /* PARA DAR UMA RESETADA NO CÓDIGO*/
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
     font-family: "Poppins", sans-serif;
 }
 
 body {
-    background-color: #e3e3e3;
+    background-color: #000000;
 
 }
 
@@ -20,7 +20,7 @@ body {
 .btn-contato button,
 .odonto-site button {
 
-    font-size: 20px;
+    /* font-size: 20px; */
     background-color: transparent;
     border: 1px solid #fff;
     color: #fff;
@@ -32,8 +32,8 @@ body {
 /* ESTILO DO HEADER */
 
 header {
-    width: 100%;
-    padding: 40px 0;
+    /* width: 100%; */
+    /* padding: 40px 0; */
     position: fixed;
     /*COMANDO PARA DEIXAR O MENU TRANSPARENTE*/
     top: 0;
@@ -53,7 +53,7 @@ header .interface {
 }
 
 header .logo img {
-    max-width: 120px;
+    /* max-width: 120px; */
     border-radius: 15px;
 }
 
@@ -65,7 +65,7 @@ header .menu-desktop nav ul {
 
 .menu-desktop nav ul li a {
     display: inline-block;
-    margin: 0 40px;
+    /* margin: 0 40px; */
     color: #fff;
     text-decoration: none;
     display: inline-block;
@@ -82,8 +82,8 @@ header .menu-desktop nav ul {
 
 
 .btn-contato button {
-    width: 140px;
-    height: 50px;
+    /* width: 140px; */
+    /* height: 50px; */
 }
 
 
@@ -91,7 +91,7 @@ header .menu-desktop nav ul {
 header .btn-contato button:hover,
 .odonto-site button:hover {
     color: #000;
-    background-color: #fff
+    background-color: #fff;
 }
 
 /* ESTILO DA ODONTO-SITE */
@@ -111,7 +111,7 @@ section.odonto-site {
 .odonto-site .interface {
     align-items: center;
     display: flex;
-    height: 100%;
+    /* height: 100%; */
 
 }
 
@@ -128,22 +128,22 @@ section.odonto-site {
 }
 
 .odonto-site .txt-odonto p {
-    font-size: 20px;
-    font-weight: 300;
-    margin: 15px 0;
+    /* font-size: 20px; */
+    font-weight: bold;
+    /* margin: 15px 0; */
 }
 
-.odonto-site button {
-    width: 220px;
-    height: 60px;
-    font-size: 20px;
-}
+/* .odonto-site button { */
+    /* width: 220px; */
+    /* height: 60px; */
+    /* font-size: auto; */
+/* } */
 
 /* ESTILO DOS MÉTODOS */
 
-section.metodo {
+/* section.metodo {
     padding: 80px 0;
-}
+} */
 
 .metodo .blocos {
     display: flex;
@@ -154,7 +154,7 @@ section.metodo {
 }
 
 .metodo .blocos .img-blocos img {
-    max-width: 480px;
+    /* max-width: 480px; */
     border-radius: 50px;
 }
 
@@ -165,7 +165,7 @@ section.metodo {
 }
 
 .blocos .txt-blocos h3 {
-    font-weight: 300;
+    font-weight: bold;
 }
 
 
@@ -173,21 +173,21 @@ section.metodo {
 
 section.fale-conosco {
     background-color: #fff;
-    padding: 80px 0;
+    /* padding: 80px 0; */
 }
 
 .txt-fale-conosco,
 .icons-fale-conosco {
     /*ALINHA OS BLOCOS,PODIA SER USADO TAMBÉM O DISPLAY FLEX EM VEZ DESSE AÍ*/
     display: inline-block;
-    margin-right: - 4px;
+    /* margin-right: - 4px; */
     vertical-align: middle;
 }
 
 .fale-conosco .txt-fale-conosco h3 {
     font-size: 2.5em;
     line-height: 50px;
-    font-weight: 300;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
@@ -204,10 +204,11 @@ section.fale-conosco {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 70%;
-    height: 60px;
-    margin: 0 auto 20px auto;
-    padding: 0 60px;
+    width: 100%;
+    color: #000;
+    height: 40%;
+    margin: 0 auto 2% auto;
+    /* padding: 0 60px; */
     background-color: transparent;
     border: 2px solid #000;
     cursor: pointer;
@@ -215,13 +216,15 @@ section.fale-conosco {
 
 }
 
-.fale-conosco .icons-fale-conosco button i {
-    font-size: 20px;
+.fale-conosco .icons-fale-conosco button  {
+    background-color:#007bff;
+    border-radius: 20px;
+    
 }
 
-.fale-conosco .icons-fale-conosco button:hover {
+/* .fale-conosco .icons-fale-conosco button:hover {
     background-color: #000;
-}
+} */
 
 .fale-conosco .icons-fale-conosco button:hover i,
 .fale-conosco .icons-fale-conosco button:hover p {
@@ -236,24 +239,25 @@ footer {
     background-color: #000;
     width: 100%;
     text-align: center;
-    padding: 30px 0;
+    /* padding: 30px 0; */
 }
 
 footer .top-footer button {
     width: 60px;
     height: 60px;
-    border-radius: 50%;
-    border: 2px solid #fff;
+    border-radius: 20%;
+    border: 2px solid #000000;
     background-color: transparent;
     color: #fff;
     font-size: 24px;
     cursor: pointer;
     margin: 0 10px;
     transition: .5s;
+    box-sizing: border-box;
 }
 
 footer .top-footer button:hover {
-    background-color: aqua;
+    /* background-color: aqua; */
     color: #000;
 }
 
@@ -347,11 +351,11 @@ section.sobre-dra h2 {
 
 section.sobre-dra p {
     font-size: 25px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
 }
 
 section.sobre-dra {
-    margin: 50px;
+    /* margin: 50px; */
 }
 
 .interface-img img {
