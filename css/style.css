@@ -253,7 +253,7 @@ footer .top-footer button {
 }
 
 footer .top-footer button:hover {
-    background-color: #fff;
+    background-color: aqua;
     color: #000;
 }
 
@@ -316,7 +316,7 @@ nav ul li a {
 
 header.scrolled nav ul li a {
     transition: color 0.3s;
-    display: none;
+    /* display: none; */
 }
 
 html {
@@ -358,4 +358,33 @@ section.sobre-dra {
     border-radius: 15%;
     width: 800px;
     margin: 30px;
+}
+
+#header{
+    background-color: #000;
+    
+    margin-top: -5%;
+    
+    
+    
+}
+
+#header li {
+    margin-top: 2.5em;
+    height: 4%;
+   
+
+}
+#header a:hover {
+    color: aqua;
+   
+
+}
+#header button {
+    /* background-color: #000; */
+    margin-top: 2em;
+    height: 4%;
+    border-radius: 10px;
+   
+
 }
