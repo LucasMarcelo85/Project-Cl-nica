@@ -8,12 +8,13 @@
 
 body {
     background-color: #000000;
+    padding-top     : 2%;
 
 }
 
 .interface {
     max-width: 1280px;
-    margin: 0 auto;
+    margin   : 0 auto;
 }
 
 
@@ -22,10 +23,12 @@ body {
 
     /* font-size: 20px; */
     background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-    cursor: pointer;
-    transition: .5s;
+    border          : 1px solid #fff;
+    color           : #fff;
+    cursor          : pointer;
+    transition      : .5s;
+   
+
 
 }
 
@@ -36,9 +39,9 @@ header {
     /* padding: 40px 0; */
     position: fixed;
     /*COMANDO PARA DEIXAR O MENU TRANSPARENTE*/
-    top: 0;
+    top     : 0;
     /*COMANDO PARA DEIXAR O MENU TRANSPARENTE*/
-    left: 0;
+    left    : 0;
     /*COMANDO PARA DEIXAR O MENU TRANSPARENTE*/
 
 }
@@ -46,10 +49,10 @@ header {
 
 /* DISPLAY-FLEX PARA OS ÍTENS FICAREM UM AO LADO DO OUTRO */
 header .interface {
-    display: flex;
-    justify-content: space-between;
+    display        : flex;
+    /* justify-content: space-between; */
     /*CADA ÍTEM FICARÁ NO SEU RESPECTIVO LUGAR*/
-    align-items: center;
+    align-items    : center;
 }
 
 header .logo img {
@@ -61,15 +64,17 @@ header .logo img {
 
 header .menu-desktop nav ul {
     list-style-type: none;
+
 }
 
+
 .menu-desktop nav ul li a {
-    display: inline-block;
-    /* margin: 0 40px; */
-    color: #fff;
+    display: flex;
+    /* display        : inline-block; */
+    /* margin      : 0 40px; */
+    color          : #fff;
     text-decoration: none;
-    display: inline-block;
-    transition: .4s;
+    transition     : .4s;
 
 }
 
@@ -81,48 +86,47 @@ header .menu-desktop nav ul {
 }
 
 
-.btn-contato button {
-    /* width: 140px; */
-    /* height: 50px; */
-}
 
 
 
 header .btn-contato button:hover,
 .odonto-site button:hover {
-    color: #000;
-    background-color: #fff;
+    color           : #000;
+    /* background-color: #fff; */
 }
 
 /* ESTILO DA ODONTO-SITE */
 
 section.odonto-site {
-    height: 150vh;
-    background-image: url(../img/fundo.jpg);
+    height             : 150vh;
+    background-image   : url(../img/fundo.jpg);
     /* O "../" PROCURA A PASTA DE IMAGENS*/
-    background-repeat: no-repeat;
+    background-repeat  : no-repeat;
     /*REMOVER REPETIÇÃO DE IMAGEM NA MESMA FOTO*/
-    background-size: cover;
+    background-size    : cover;
     /*PREENCHER O RESTANTE DA IMAGEM*/
     background-position: center;
-    color: #fff;
+    color              : #fff;
 }
 
 .odonto-site .interface {
     align-items: center;
-    display: flex;
-    /* height: 100%; */
+    display    : flex;
+    text-align: end;
+    padding-left: 50%;
+    /* height  : 100%; */
 
 }
 
 .odonto-site .txt-odonto h1 {
-    font-size: 4em;
+    font-size  : 4em;
     line-height: 70px;
     font-weight: 200;
+
 }
 
 .odonto-site .txt-odonto h1 span {
-    display: block;
+    display    : block;
     font-weight: 800;
 
 }
@@ -130,13 +134,13 @@ section.odonto-site {
 .odonto-site .txt-odonto p {
     /* font-size: 20px; */
     font-weight: bold;
-    /* margin: 15px 0; */
+    /* margin  : 15px 0; */
 }
 
 /* .odonto-site button { */
-    /* width: 220px; */
-    /* height: 60px; */
-    /* font-size: auto; */
+/* width: 220px; */
+/* height: 60px; */
+/* font-size: auto; */
 /* } */
 
 /* ESTILO DOS MÉTODOS */
@@ -146,11 +150,11 @@ section.odonto-site {
 } */
 
 .metodo .blocos {
-    display: flex;
-    align-items: center;
+    display        : flex;
+    align-items    : center;
     justify-content: space-between;
-    gap: 10%;
-    margin-bottom: 60px;
+    gap            : 10%;
+    margin-bottom  : 60px;
 }
 
 .metodo .blocos .img-blocos img {
@@ -159,7 +163,7 @@ section.odonto-site {
 }
 
 .metodo .blocos .txt-blocos h3 {
-    font-size: 3em;
+    font-size  : 3em;
     line-height: 50px;
 
 }
@@ -173,26 +177,26 @@ section.odonto-site {
 
 section.fale-conosco {
     background-color: #fff;
-    /* padding: 80px 0; */
+    /* padding      : 80px 0; */
 }
 
 .txt-fale-conosco,
 .icons-fale-conosco {
     /*ALINHA OS BLOCOS,PODIA SER USADO TAMBÉM O DISPLAY FLEX EM VEZ DESSE AÍ*/
-    display: inline-block;
+    display        : inline-block;
     /* margin-right: - 4px; */
-    vertical-align: middle;
+    vertical-align : middle;
 }
 
 .fale-conosco .txt-fale-conosco h3 {
-    font-size: 2.5em;
-    line-height: 50px;
-    font-weight: bold;
+    font-size    : 2.5em;
+    line-height  : 50px;
+    font-weight  : bold;
     margin-bottom: 20px;
 }
 
 .fale-conosco .txt-fale-conosco h3 span {
-    display: block;
+    display    : block;
     font-weight: 700;
 }
 
@@ -201,25 +205,25 @@ section.fale-conosco {
 }
 
 .fale-conosco .icons-fale-conosco button {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    color: #000;
-    height: 40%;
-    margin: 0 auto 2% auto;
-    /* padding: 0 60px; */
+    display         : flex;
+    align-items     : center;
+    justify-content : space-between;
+    width           : 100%;
+    color           : #000;
+    height          : 40%;
+    margin          : 0 auto 2% auto;
+    /* padding      : 0 60px; */
     background-color: transparent;
-    border: 2px solid #000;
-    cursor: pointer;
-    transition: .5s;
+    border          : 2px solid #000;
+    cursor          : pointer;
+    transition      : .5s;
 
 }
 
-.fale-conosco .icons-fale-conosco button  {
-    background-color:#007bff;
-    border-radius: 20px;
-    
+.fale-conosco .icons-fale-conosco button {
+    background-color: #007bff;
+    border-radius   : 20px;
+
 }
 
 /* .fale-conosco .icons-fale-conosco button:hover {
@@ -237,23 +241,23 @@ section.fale-conosco {
 
 footer {
     background-color: #000;
-    width: 100%;
-    text-align: center;
-    /* padding: 30px 0; */
+    width           : 100%;
+    text-align      : center;
+    /* padding      : 30px 0; */
 }
 
 footer .top-footer button {
-    width: 60px;
-    height: 60px;
-    border-radius: 20%;
-    border: 2px solid #000000;
+    width           : 60px;
+    height          : 60px;
+    border-radius   : 20%;
+    border          : 2px solid #000000;
     background-color: transparent;
-    color: #fff;
-    font-size: 24px;
-    cursor: pointer;
-    margin: 0 10px;
-    transition: .5s;
-    box-sizing: border-box;
+    color           : #fff;
+    font-size       : 24px;
+    cursor          : pointer;
+    margin          : 0 10px;
+    transition      : .5s;
+    box-sizing      : border-box;
 }
 
 footer .top-footer button:hover {
@@ -263,11 +267,11 @@ footer .top-footer button:hover {
 
 footer .bottom-footer {
     border-top: 2px solid #fff;
-    margin: 25px;
+    margin    : 25px;
 }
 
 footer .bottom-footer p {
-    color: #fff;
+    color : #fff;
     margin: 30px 0;
 
 }
@@ -277,45 +281,47 @@ footer .bottom-footer p {
 } */
 header {
     padding-bottom: 0;
-    height: 20%;
+    height        : 20%;
+
 }
 
 .icons-fale-conosco {
     margin-left: 40%;
-    height: 40vh;
+    height     : 40vh;
     padding-top: 0;
 }
 
 
 iframe {
-    display: flex;
+    display       : flex;
     flex-direction: row;
-    width: 50%;
-    padding: 0;
+    width         : 2000%;
+    padding       : 1% 0 0 8%;
+   
 }
 
 .maps {
-    padding: 2%;
-    display: flex;
+    padding       : 2%;
+    display       : flex;
     flex-direction: row;
 }
 
-.maps iframe strong {
-    padding: 2%;
+/* .maps iframe strong {
+    padding       : 2%;
     flex-direction: column;
-}
+} */
 
 .maps .interface {
     padding: 0 4% 0 2%;
-    margin: 0%;
-    left: 10%;
+    margin : 0%;
+    left   : 10%;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color          : #fff;
     /* Cor padrão do texto do menu */
-    transition: color 0.3s;
+    transition     : color 0.3s;
 }
 
 header.scrolled nav ul li a {
@@ -335,22 +341,23 @@ html {
 
 
 
-header .header-sobre { /* AQUI ESTILIZA O SOBRE*/
+header .header-sobre {
+    /* AQUI ESTILIZA O SOBRE*/
     background-color: #e3e3e3
 }
 
 section.sobre-dra h2 {
-    text-align: center;
+    text-align : center;
     font-family: monospace;
-    font-size: 30px;
-    color: #000;
+    font-size  : 30px;
+    color      : #000;
 
 
 }
 
 
 section.sobre-dra p {
-    font-size: 25px;
+    font-size     : 25px;
     /* margin-left: 60px; */
 }
 
@@ -359,79 +366,90 @@ section.sobre-dra {
 }
 
 .interface-img img {
+    
     border-radius: 15%;
-    width: 800px;
-    margin: 30px;
+    width        : 800px;
+    margin       : 30px;
 }
 
-#header{
+#header {
     background-color: #000;
-    
+
     margin-top: -5%;
-    
-    
-    
+
+
+
 }
 
 #header li {
     margin-top: 2.5em;
-    height: 4%;
-   
+    height    : 4%;
+    text-align: center;
+
+
 
 }
+
 #header a:hover {
     color: aqua;
-   
+
 
 }
+
 #header button {
     /* background-color: #000; */
-    margin-top: 2em;
-    height: 4%;
+    margin-top   : 2em;
+    height       : 4%;
     border-radius: 10px;
-   
+
 
 }
+
 /* ----------------------------------------------------------- */
 
 /* styles.css */
 
 /* Estilos básicos */
 body {
-    margin: 0;
+    margin     : 0;
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden; /* Impede o deslocamento horizontal */
+    overflow-x : hidden;
+    /* Impede o deslocamento horizontal */
 }
 
 /* Cabeçalho */
 #header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-    background-color: #333;
-    color: #fff;
-    position: relative; /* Para garantir que o menu móvel se posicione corretamente */
+    display           : flex;
+    /* justify-content: space-between; */
+    align-items       : center;
+    padding           : 1em;
+    background-color  : #333;
+    color             : #fff;
+    position          : relative;
+    /* Para garantir que o menu móvel se posicione corretamente */
+    text-align        : center;
 }
 
 .interface {
-    width: 100%;
-    max-width: 1200px; /* Ajuste conforme necessário */
-    margin: 0 auto;
-    padding: 0 1em;
-    box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho total */
+    width     : 100%;
+    max-width : 1200px;
+    /* Ajuste conforme necessário */
+    margin    : 0 auto;
+    padding   : 0 1em;
+    box-sizing: border-box;
+    /* Inclui padding e bordas no cálculo do tamanho total */
 }
 
 /* Menu desktop */
 .menu-desktop {
-    display: block;
+    margin-left: 20%;
 }
 
 .menu-desktop nav ul {
-    display: flex;
+    display        : flex;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin         : 0;
+    padding        : 0;
 }
 
 .menu-desktop nav ul li {
@@ -439,39 +457,49 @@ body {
 }
 
 .menu-desktop nav ul li a {
-    color: #fff;
+    line-height: 20%;
+    color          : #fff;
     text-decoration: none;
 }
 
 /* Botão de contato */
 .btn-contato button {
-    background-color: #007bff;
-    border: none;
-    color: #fff;
-    padding: 0.5em 1em;
-    cursor: pointer;
-    border-radius: 4px;
+    background-color: transparent;
+    border          : none;
+    color           : #fff;
+    padding         : 0.5em 1em;
+    cursor          : pointer;
+    border-radius   : 4px;
 }
 
 /* Menu móvel */
 .menu-mobile {
-    display: none; /* Inicialmente oculto */
-    position: fixed; /* Fixa o menu na tela */
-    top: 0;
-    left: 0;
-    width: 100vw; /* Garante que o menu ocupe 100% da largura da tela */
-    height: 60vh; /* Garante que o menu ocupe 100% da altura da tela */
-    background-color: rgba(0, 0, 0, 0.9); /* Cor de fundo semi-transparente */
-    overflow-y: auto; /* Permite rolar se o conteúdo for maior que a altura da tela */
-    z-index: 999; /* Garante que o menu fique acima de outros elementos */
-    padding-top: 60px; /* Ajusta o espaçamento para não sobrepor o botão de fechar, se houver */
-    box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho total */
+    display         : none;
+    /* Inicialmente oculto */
+    position        : fixed;
+    /* Fixa o menu na tela */
+    top             : 0;
+    left            : 0;
+    width           : 100vw;
+    /* Garante que o menu ocupe 100% da largura da tela */
+    height          : 60vh;
+    /* Garante que o menu ocupe 100% da altura da tela */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Cor de fundo semi-transparente */
+    overflow-y      : auto;
+    /* Permite rolar se o conteúdo for maior que a altura da tela */
+    z-index         : 999;
+    /* Garante que o menu fique acima de outros elementos */
+    padding-top     : 60px;
+    /* Ajusta o espaçamento para não sobrepor o botão de fechar, se houver */
+    box-sizing      : border-box;
+    /* Inclui padding e bordas no cálculo do tamanho total */
 }
 
 .menu-mobile nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin         : 0;
+    padding        : 0;
 }
 
 .menu-mobile nav ul li {
@@ -479,29 +507,32 @@ body {
 }
 
 .menu-mobile nav ul li a {
-    display: block;
-    color: #fff;
-    padding: 1em;
+    display        : block;
+    color          : #fff;
+    padding        : 1em;
     text-decoration: none;
-    box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho total */
+    box-sizing     : border-box;
+    /* Inclui padding e bordas no cálculo do tamanho total */
 }
 
 /* Ícone do menu */
 .menu-toggle {
-    display: none; /* Oculto por padrão */
+    display   : none;
+    /* Oculto por padrão */
     background: none;
-    border: none;
-    cursor: pointer;
-    padding: 1em;
-    z-index: 1000; /* Garante que o ícone esteja acima do menu móvel */
+    border    : none;
+    cursor    : pointer;
+    padding   : 1em;
+    z-index   : 1000;
+    /* Garante que o ícone esteja acima do menu móvel */
 }
 
 .menu-toggle .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
+    display         : block;
+    width           : 25px;
+    height          : 3px;
     background-color: #fff;
-    margin: 5px auto;
+    margin          : 5px auto;
 }
 
 /* Estilos para dispositivos móveis */
@@ -515,25 +546,40 @@ body {
     }
 
     .menu-mobile.active {
-        display: block; /* Exibe o menu quando ativado */
+        display: block;
+        /* Exibe o menu quando ativado */
     }
-    .btn-contato button{
+
+    .btn-contato button {
         display: none;
     }
+
     #header {
         background-color: #00000000;
     }
+    .top-footer a button {
+        box-sizing: border-box;
+        /* background-color: #007bff; */
+        /* border          : none; */
+        color           : #fff;
+        width: 12vw;
+        height: 12vh;
+        /* padding         : 0.5em; */
+        border-radius   : 40px;
+        /* margin          : 0 0.5em; */
+    }
+    
 }
 
 /* Seções do site */
 .odonto-site {
-    padding: 2em 0;
+    padding         : 2em 0;
     background-color: #f8f9fa;
-    text-align: center;
+    text-align      : center;
 }
 
 .odonto-site .txt-odonto h1 {
-    margin: 0;
+    margin   : 0;
     font-size: 2em;
 }
 
@@ -543,19 +589,20 @@ body {
 
 /* Blocos de procedimentos */
 .metodo {
-    padding: 2em 0;
+    padding         : 2em 0;
     background-color: #fff;
 }
 
 .blocos {
-    display: flex;
-    flex-wrap: wrap;
+    display        : flex;
+    flex-wrap      : wrap;
     justify-content: space-between;
-    margin-bottom: 1em;
+    margin-bottom  : 1em;
 }
 
-.txt-blocos, .img-blocos {
-    flex: 1 1 100%;
+.txt-blocos,
+.img-blocos {
+    flex      : 1 1 100%;
     box-sizing: border-box;
 }
 
@@ -565,12 +612,12 @@ body {
 
 .img-blocos img {
     max-width: 100%;
-    height: auto;
+    height   : auto;
 }
 
 /* Seção de contato */
 .fale-conosco {
-    padding: 2em 0;
+    padding         : 2em 0;
     background-color: #f8f9fa;
 }
 
@@ -583,34 +630,40 @@ body {
 }
 
 .icons-fale-conosco a button {
-    display: flex;
-    align-items: center;
+    display         : flex;
+    align-items     : center;
     background-color: #007bff;
-    border: none;
-    color: #fff;
-    padding: 0.5em 1em;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-right: 1em;
+    border          : none;
+    color           : #fff;
+    padding         : 0.5em 1em;
+    cursor          : pointer;
+    border-radius   : 4px;
+    margin-right    : 1em;
+
 }
 
-.icons-fale-conosco a button i {
-    margin-right: 0.5em;
-}
+
 
 /* Rodapé */
 footer {
     background-color: #333;
-    color: #fff;
-    padding: 1em 0;
-    text-align: center;
+    color           : #fff;
+    padding         : 1em 0;
+    text-align      : center;
 }
 
 .top-footer a button {
+    box-sizing: border-box;
     background-color: #007bff;
-    border: none;
-    color: #fff;
-    padding: 0.5em;
-    border-radius: 4px;
-    margin: 0 0.5em;
+    border          : none;
+    color           : #fff;
+    padding         : 0.5em;
+    border-radius   : 40px;
+    margin          : 0 0.5em;
 }
+.odonto-site .txt-odonto a button, a:hover{
+    background-color: transparent;}
+
+    .odonto-site .txt-odonto a button{
+        width: 20vw;
+    }
