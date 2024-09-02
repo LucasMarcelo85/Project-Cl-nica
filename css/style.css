@@ -27,7 +27,7 @@ body {
     color           : #fff;
     cursor          : pointer;
     transition      : .5s;
-   
+
 
 
 }
@@ -49,10 +49,10 @@ header {
 
 /* DISPLAY-FLEX PARA OS ÍTENS FICAREM UM AO LADO DO OUTRO */
 header .interface {
-    display        : flex;
+    display           : flex;
     /* justify-content: space-between; */
     /*CADA ÍTEM FICARÁ NO SEU RESPECTIVO LUGAR*/
-    align-items    : center;
+    align-items       : center;
 }
 
 header .logo img {
@@ -69,12 +69,12 @@ header .menu-desktop nav ul {
 
 
 .menu-desktop nav ul li a {
-    display: flex;
+    display           : flex;
     /* display        : inline-block; */
-    /* margin      : 0 40px; */
-    color          : #fff;
-    text-decoration: none;
-    transition     : .4s;
+    /* margin         : 0 40px; */
+    color             : #fff;
+    text-decoration   : none;
+    transition        : .4s;
 
 }
 
@@ -91,7 +91,7 @@ header .menu-desktop nav ul {
 
 header .btn-contato button:hover,
 .odonto-site button:hover {
-    color           : #000;
+    color: #007bff;
     /* background-color: #fff; */
 }
 
@@ -110,11 +110,11 @@ section.odonto-site {
 }
 
 .odonto-site .interface {
-    align-items: center;
-    display    : flex;
-    text-align: end;
+    align-items : center;
+    display     : flex;
+    text-align  : end;
     padding-left: 50%;
-    /* height  : 100%; */
+    /* height   : 100%; */
 
 }
 
@@ -297,7 +297,7 @@ iframe {
     flex-direction: row;
     width         : 2000%;
     padding       : 1% 0 0 8%;
-   
+
 }
 
 .maps {
@@ -366,7 +366,7 @@ section.sobre-dra {
 }
 
 .interface-img img {
-    
+
     border-radius: 15%;
     width        : 800px;
     margin       : 30px;
@@ -457,7 +457,7 @@ body {
 }
 
 .menu-desktop nav ul li a {
-    line-height: 20%;
+    line-height    : 20%;
     color          : #fff;
     text-decoration: none;
 }
@@ -557,18 +557,19 @@ body {
     #header {
         background-color: #00000000;
     }
+
     .top-footer a button {
-        box-sizing: border-box;
+        box-sizing         : border-box;
         /* background-color: #007bff; */
         /* border          : none; */
-        color           : #fff;
-        width: 12vw;
-        height: 12vh;
+        color              : #fff;
+        width              : 12vw;
+        height             : 12vh;
         /* padding         : 0.5em; */
-        border-radius   : 40px;
+        border-radius      : 40px;
         /* margin          : 0 0.5em; */
     }
-    
+
 }
 
 /* Seções do site */
@@ -653,7 +654,7 @@ footer {
 }
 
 .top-footer a button {
-    box-sizing: border-box;
+    box-sizing      : border-box;
     background-color: #007bff;
     border          : none;
     color           : #fff;
@@ -661,9 +662,84 @@ footer {
     border-radius   : 40px;
     margin          : 0 0.5em;
 }
-.odonto-site .txt-odonto a button, a:hover{
-    background-color: transparent;}
 
-    .odonto-site .txt-odonto a button{
-        width: 20vw;
+.odonto-site .txt-odonto a button,
+a:hover {
+    background-color: transparent;
+}
+
+.odonto-site .txt-odonto a button {
+    width: 20vw;
+}
+
+/* styles.css */
+
+/* Estilos gerais */
+body {
+    margin     : 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x : hidden;
+    /* Impede o deslocamento horizontal */
+}
+
+/* Seção de procedimentos */
+#Procedimentos {
+    padding         : 2em 1em;
+    background-color: #f8f9fa;
+}
+
+.metodo {
+    max-width : 1200px;
+    margin    : 0 auto;
+    box-sizing: border-box;
+}
+
+.interface2 {
+    display       : flex;
+    flex-direction: column;
+    gap           : 1em;
+}
+
+/* Blocos de procedimentos */
+.blocos2 {
+    display    : flex;
+    flex-wrap  : wrap;
+    gap        : 1em;
+    align-items: center;
+    /* Alinha itens verticalmente ao centro */
+    box-sizing : border-box;
+}
+
+/* Imagem e texto lado a lado */
+.img-blocos2 {
+    flex     : 1;
+    max-width: 50%;
+    /* Imagem ocupa até 50% da largura */
+}
+
+.img-blocos2 img {
+    width     : 100%;
+    height    : auto;
+    object-fit: cover;
+    /* Garante que a imagem se ajuste sem distorção */
+}
+
+.txt-blocos2 {
+    flex     : 1;
+    max-width: 50%;
+    /* Texto ocupa até 50% da largura */
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    .blocos2 {
+        flex-direction: column;
+        /* Empilha imagem e texto verticalmente em telas menores */
     }
+
+    .img-blocos2,
+    .txt-blocos2 {
+        max-width: 100%;
+        /* Imagem e texto ocupam 100% da largura em telas menores */
+    }
+}
