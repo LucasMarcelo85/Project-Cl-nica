@@ -395,123 +395,12 @@ section.sobre-dra {
 /* Estilos básicos */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-    background-color: #333;
-    color: #fff;
-}
-
-.menu-desktop {
-    display: block;
-}
-
-.menu-desktop nav ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu-desktop nav ul li {
-    margin: 0 1em;
-}
-
-.menu-desktop nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Estilo do botão de contato */
-.btn-contato button {
-    background-color: #007bff;
-    border: none;
-    color: #fff;
-    padding: 0.5em 1em;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-/* Menu móvel */
-.menu-mobile {
-    display: none;
-}
-
-.menu-mobile nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-}
-
-.menu-mobile nav ul li {
-    border-bottom: 1px solid #444;
-}
-
-.menu-mobile nav ul li a {
-    display: block;
-    color: #fff;
-    padding: 1em;
-    text-decoration: none;
-}
-
-/* Ícone do menu */
-.menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 1em;
-    z-index: 1000;
-}
-
-.menu-toggle .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px auto;
-}
-
-/* Estilos para dispositivos móveis */
-@media (max-width: 768px) {
-    .menu-desktop {
-        display: none;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
-
-    .menu-mobile.active {
-        display: block;
-    }
-    .btn-contato{
-        display: none;
-    }
-     #header{
-        background-color: rgba(255, 255, 255, 0);
-        color: #000;
-}  
-}
-
-
-/* ----------------------------------------------------------------------------------- */
-/* styles.css */
-
-/* Estilos básicos */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden; /* Impede o deslocamento horizontal */
 }
 
-.header {
+/* Cabeçalho */
+#header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -521,6 +410,15 @@ body {
     position: relative; /* Para garantir que o menu móvel se posicione corretamente */
 }
 
+.interface {
+    width: 100%;
+    max-width: 1200px; /* Ajuste conforme necessário */
+    margin: 0 auto;
+    padding: 0 1em;
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho total */
+}
+
+/* Menu desktop */
 .menu-desktop {
     display: block;
 }
@@ -541,7 +439,7 @@ body {
     text-decoration: none;
 }
 
-/* Estilo do botão de contato */
+/* Botão de contato */
 .btn-contato button {
     background-color: #007bff;
     border: none;
@@ -557,10 +455,10 @@ body {
     position: fixed; /* Fixa o menu na tela */
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%; /* Ocupa toda a altura da tela */
+    width: 100vw; /* Garante que o menu ocupe 100% da largura da tela */
+    height: 60vh; /* Garante que o menu ocupe 100% da altura da tela */
     background-color: rgba(0, 0, 0, 0.9); /* Cor de fundo semi-transparente */
-    overflow-y: auto; /* Permite rolagem se o conteúdo for maior que a tela */
+    overflow-y: auto; /* Permite rolar se o conteúdo for maior que a altura da tela */
     z-index: 999; /* Garante que o menu fique acima de outros elementos */
     padding-top: 60px; /* Ajusta o espaçamento para não sobrepor o botão de fechar, se houver */
     box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho total */
@@ -581,6 +479,7 @@ body {
     color: #fff;
     padding: 1em;
     text-decoration: none;
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho total */
 }
 
 /* Ícone do menu */
@@ -614,4 +513,100 @@ body {
     .menu-mobile.active {
         display: block; /* Exibe o menu quando ativado */
     }
+    .btn-contato button{
+        display: none;
+    }
+    #header {
+        background-color: #00000000;
+    }
+}
+
+/* Seções do site */
+.odonto-site {
+    padding: 2em 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.odonto-site .txt-odonto h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.odonto-site .txt-odonto p {
+    font-size: 1.2em;
+}
+
+/* Blocos de procedimentos */
+.metodo {
+    padding: 2em 0;
+    background-color: #fff;
+}
+
+.blocos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.txt-blocos, .img-blocos {
+    flex: 1 1 100%;
+    box-sizing: border-box;
+}
+
+.txt-blocos h3 {
+    font-size: 1.5em;
+}
+
+.img-blocos img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Seção de contato */
+.fale-conosco {
+    padding: 2em 0;
+    background-color: #f8f9fa;
+}
+
+.maps {
+    margin-bottom: 2em;
+}
+
+.txt-fale-conosco {
+    margin-bottom: 1em;
+}
+
+.icons-fale-conosco a button {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 1em;
+}
+
+.icons-fale-conosco a button i {
+    margin-right: 0.5em;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.top-footer a button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 4px;
+    margin: 0 0.5em;
 }
