@@ -19,7 +19,7 @@ body {
 
 
 .btn-contato button{
-    margin-bottom: px;
+    margin:auto;
 }
 
 
@@ -95,7 +95,7 @@ header .menu-desktop nav ul {
 
 header .btn-contato button:hover,
 .odonto-site button:hover {
-    color              : #007bff;
+    color              : rgba(0, 255, 255, 0.651);
     /* background-color: #fff; */
 }
 
@@ -467,7 +467,7 @@ body {
     background-color: transparent;
     border          : none;
     color           : #fff;
-    padding         : 0.5em 1em;
+    padding         : 1.25em 1em;
     cursor          : pointer;
     border-radius   : 4px;
 }
@@ -740,3 +740,4 @@ body {
         /* Imagem e texto ocupam 100% da largura em telas menores */
     }
 }
+
