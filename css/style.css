@@ -7,14 +7,14 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: transparent;
     padding-top     : 2%;
 
 }
 
 .interface {
     max-width: 1280px;
-    margin   : 0 auto;
+    margin   : auto;
 }
 
 
@@ -140,6 +140,27 @@ section.odonto-site {
     font-weight: bold;
     /* margin  : 15px 0; */
 }
+
+
+
+/*FUNDO DA PAGINA SOBRE */
+
+
+section.odonto-site2 {
+    height             : 150vh;
+    background-image   : url(..//img/equipe.jpg);
+    /* O "../" PROCURA A PASTA DE IMAGENS*/
+    background-repeat  : no-repeat;
+    /*REMOVER REPETIÇÃO DE IMAGEM NA MESMA FOTO*/
+    background-size    : cover;
+    /*PREENCHER O RESTANTE DA IMAGEM*/
+    background-position: center;
+    color              : #fff;
+
+}
+
+    
+
 
 /* .odonto-site button { */
 /* width: 220px; */
