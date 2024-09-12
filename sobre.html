@@ -27,56 +27,58 @@
 </head>
 
 <body>
-    <header id="header"> <!--CABEÇALHO-->
-        <div class="interface"> <!--INTERFACE-->
-            <!-- <section class="logo">
-                <img class="logo-branca" src="#" width="80px" alt="logotipo"> LOGOTIPO-->
-            <!-- </section> -->
-
+    <header id="header">
+        <div class="interface"> <!-- INTERFACE -->
+            <!-- Seção de logotipo desativada -->
+            
+            <!-- Menu Desktop -->
             <section class="menu-desktop">
-                <nav> <!--MENU DE NAVEGAÇÃO-->
-                    <ul> <!--LISTA DE LINKS NÃO ORDENADAS-->
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="#">Procedimentos</a></li>
-                        <li><a href="#">Agendamentos</a></li>
-                        <section class="btn-contato"> <!--BOTÃO DO CONTATO NO TOPO DA PÁGINA-->
-
-                            <!-- MApas -->
+                <nav> <!-- MENU DE NAVEGAÇÃO -->
+                    <ul> <!-- LISTA DE LINKS NÃO ORDENADAS -->
+                        <li><a href="./index.html">Início</a></li>
+                        <li><a href="/sobre.html">Sobre</a></li>
+                        <li><a href="./index.html#Procedimentos">Procedimentos</a></li>
+                        <li><a href="https://wa.me/5585988946895?text=">Agendamentos</a></li>
+                        <section class="btn-contato"> <!-- BOTÃO DO CONTATO NO TOPO DA PÁGINA -->
+                            <!-- Mapas -->
                             <a href="https://www.google.com/maps/place/R.+Sen.+Pompeu,+2314+-+Benfica,+Fortaleza+-+CE,+60025-002/@-3.73875,-38.533424,16z/data=!4m6!3m5!1s0x7c7490416f54347:0x900a70c27a322f8a!8m2!3d-3.7387499!4d-38.5334243!16s%2Fg%2F11cpb9_sn4?hl=pt-BR&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"
-                                target="_blank"><button><i class="bi bi-geo-alt-fill"></i></button></a>
-
+                               target="_blank"><button><i class="bi bi-geo-alt-fill"></i></button></a>
+    
                             <!-- Whatsapp -->
                             <a href="https://wa.me/5585988946895?text=" target="_blank"><button><i
-                                        class="bi bi-whatsapp"></i></button></a>
-
+                                    class="bi bi-whatsapp"></i></button></a>
+    
                             <!-- Email -->
                             <a href="mailto:mglopes13@hotmail.com" target="_blank"><button><i
-                                        class="bi bi-envelope"></i></button></a>
-
-                            <!-- Telefonne -->
+                                    class="bi bi-envelope"></i></button></a>
+    
+                            <!-- Telefone -->
                             <a href="tel:+5585988946895" target="_blank"><button><i
-                                        class="bi bi-telephone-fill"></i></button></a>
+                                    class="bi bi-telephone-fill"></i></button></a>
                         </section>
-
-                        <!-- Botão do menu móvel -->
-                        <button class="menu-toggle" aria-label="Abrir menu">
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                        </button>
-
-                        <!-- Menu móvel -->
-                        <section class="menu-mobile">
-                            <nav>
-                                <ul>
-                                    <li><a href="#">Início</a></li>
-                                    <li><a href="/sobre.html" target="_blank">Sobre</a></li>
-                                    <li><a href="#">Procedimentos</a></li>
-                                    <li><a href="https://wa.me/5585988946895?text=">Agendamentos</a></li>
-                                </ul>
-                            </nav>
-                        </section>
-
+                    </ul>
+                </nav>
+            </section>
+    
+            <!-- Botão do menu móvel -->
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+    
+            <!-- Menu móvel (Modal) -->
+            <div class="menu-mobile" id="menuModal">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Início</a></li>
+                        <li><a href="/sobre.html" target="_blank">Sobre</a></li>
+                        <li><a href="./index.html#Procedimentos">Procedimentos</a></li>
+                        <li><a href="https://wa.me/5585988946895?text=">Agendamentos</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
         </div>
     </header>
 
@@ -137,7 +139,10 @@
         </div>
 
     </section>
-
+                        <!-- Botão de voltar ao topo -->
+<button id="backToTop" class="back-to-top" aria-label="Subir ao topo">
+    ↑
+</button>
     <footer>
         <div id="contato">
             <article class="txt-fale-conosco">

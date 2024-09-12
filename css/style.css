@@ -493,100 +493,7 @@ body {
     border-radius   : 4px;
 }
 
-/* Menu móvel */
-.menu-mobile {
-    display         : none;
-    /* Inicialmente oculto */
-    position        : fixed;
-    /* Fixa o menu na tela */
-    top             : 0;
-    left            : 0;
-    width           : 100vw;
-    /* Garante que o menu ocupe 100% da largura da tela */
-    height          : 60vh;
-    /* Garante que o menu ocupe 100% da altura da tela */
-    background-color: rgba(0, 0, 0, 0.9);
-    /* Cor de fundo semi-transparente */
-    overflow-y      : auto;
-    /* Permite rolar se o conteúdo for maior que a altura da tela */
-    z-index         : 999;
-    /* Garante que o menu fique acima de outros elementos */
-    padding-top     : 60px;
-    /* Ajusta o espaçamento para não sobrepor o botão de fechar, se houver */
-    box-sizing      : border-box;
-    /* Inclui padding e bordas no cálculo do tamanho total */
-}
 
-.menu-mobile nav ul {
-    list-style-type: none;
-    margin         : 0;
-    padding        : 0;
-}
-
-.menu-mobile nav ul li {
-    border-bottom: 1px solid #444;
-}
-
-.menu-mobile nav ul li a {
-    display        : block;
-    color          : #fff;
-    padding        : 1em;
-    text-decoration: none;
-    box-sizing     : border-box;
-    /* Inclui padding e bordas no cálculo do tamanho total */
-}
-
-/* Ícone do menu */
-.menu-toggle {
-    display   : none;
-    /* Oculto por padrão */
-    background: none;
-    border    : none;
-    cursor    : pointer;
-    padding   : 1em;
-    z-index   : 1000;
-    /* Garante que o ícone esteja acima do menu móvel */
-}
-
-.menu-toggle .bar {
-    display         : block;
-    width           : 25px;
-    height          : 3px;
-    background-color: #fff;
-    margin          : 5px auto;
-}
-
-/* Estilos para dispositivos móveis */
-@media (max-width: 768px) {
-    .menu-desktop {
-        display: none;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
-
-    .menu-mobile.active {
-        display: block;
-        /* Exibe o menu quando ativado */
-    }
-
-    .btn-contato button {
-        display: none;
-    }
-
-    #header {
-        background-color: #00000000;
-    }
-
-    .top-footer a button {
-        box-sizing: border-box;
-        width     : 6%;
-        color     : #fff;
-        
-    }
-
-}
 
 /* Seções do site */
 .odonto-site {
@@ -762,3 +669,123 @@ body {
     }
 }
 
+
+.interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Menu Desktop */
+.menu-desktop ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-desktop ul li {
+    margin: 0 15px;
+}
+
+.menu-desktop ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Botão do menu móvel */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    border: none;
+    background: none;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #f0ecec;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Menu móvel (Modal) */
+.menu-mobile {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 55%;
+    background: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.menu-mobile nav ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.menu-mobile nav ul li {
+    margin: 20px 0;
+}
+
+.menu-mobile nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Exibir botão de menu na versão mobile */
+@media (max-width: 768px) {
+    .menu-desktop {
+        display: none; /* Esconder menu desktop em telas menores */
+    }
+    
+    .menu-toggle {
+        display: flex;
+    }
+}
+
+/* Mostrar menu modal quando ativo */
+.menu-mobile.active {
+    right: 0;
+}
+
+/* Estilo para o botão de subir ao topo */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333; /* Cor de fundo que combine com a página */
+    color: white; /* Cor da seta */
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px; /* Tamanho da seta */
+    cursor: pointer;
+    display: none; /* Ocultar o botão por padrão */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: background-color 0.3s ease; /* Transição suave para o hover */
+}
+
+/* Mudança de cor ao passar o mouse */
+.back-to-top:hover {
+    background-color: #555;
+}
+
+/* Mostrar o botão em telas maiores */
+@media (min-width: 768px) {
+    .back-to-top {
+        display: flex;
+    }
+}
